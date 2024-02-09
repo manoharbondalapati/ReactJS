@@ -1,17 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+//import Home from './Classcom/Home';
+import About from './Classcom/About';
+import Contact from './Classcom/Contact';
+//import FunHome from './functional/FunHome';
+import FunAbout from './functional/FunAbout';
+import FunContact from './functional/FunContact';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+
+const root =ReactDOM.createRoot(document.getElementById('root'));
+root.render
+(
+<div>
+    <About/>
+    <Contact/>
+    <FunAbout/>
+    <FunContact/>
+</div>
+
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
