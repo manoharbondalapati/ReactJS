@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Signup from './Signup';
 
 //import { Homefun } from './Homefun';
 //import Homefun from './Homefun';
-import Listitems from './Listitems';
+//import Listitems from './Listitems';
 //import { Homecls } from './Homecls';
 //import Homecls from './Homecls';
+//import Logincls from './Logincls';
 
 
 
@@ -18,10 +20,11 @@ root.render
 (
 <div>
  
- {/* <Homefun from="Vijayawada"/> */}
-  {/* <Homecls from="chennai" /> */}
-  <Listitems/>
-
+ {/* <Homefun from="Vijayawada"/>
+  <Homecls from="chennai" />
+  <Listitems/> */}
+  {/* <Logincls/> */}
+<Signup/>
 </div>
 
 );
