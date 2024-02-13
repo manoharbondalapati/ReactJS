@@ -11,7 +11,13 @@ import React from 'react'
   return (
     <div>
       <h1>Listitems</h1>
-      {items.length>0 ? (<ul>{items.map((items,index)=>(<li key={index}>{items}</li>))}</ul>):(<h1>Noitems</h1>)}
+      {
+      items.length>0 ? 
+      (
+      <ul>
+        {items.map((items,index)=>(<li key={index}>
+          {items}</li>))}</ul>
+      ):(<h1>Noitems</h1>)}
     </div>
   )
 }
