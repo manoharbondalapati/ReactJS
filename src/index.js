@@ -20,7 +20,7 @@ root.render
 (
 <div>
  
- {/* <Homefun from="Vijayawada"/>
+  {/* <Homefun from="Vijayawada"/>
   <Homecls from="chennai" />
   <Listitems/> */}
   {/* <Logincls/> */}
